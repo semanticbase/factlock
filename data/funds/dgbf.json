@@ -1,0 +1,27 @@
+{
+  "id": "DGBF",
+  "name_en": "Demo Global Balanced Fund",
+  "name_ja": "デモ・グローバル・バランス・ファンド",
+  "note_en": "Hypothetical fund of public ETFs, for demonstration only. Returns are computed from issuer-published ETF total returns, gross of fees, assuming monthly rebalancing to target weights.",
+  "note_ja": "公開ETFで構成したデモ用の仮想ファンドです。騰落率は発行体が公表するETFのトータルリターンから、費用控除前・毎月目標配分へリバランスする前提で算出しています。",
+  "currency": "USD",
+  "components": [
+    {"ticker": "SPY",  "weight": 0.40, "sleeve": "equity", "label_en": "U.S. large-cap equities",          "label_ja": "米国大型株"},
+    {"ticker": "SPDW", "weight": 0.20, "sleeve": "equity", "label_en": "developed-market equities ex-U.S.", "label_ja": "米国を除く先進国株式"},
+    {"ticker": "SPEM", "weight": 0.10, "sleeve": "equity", "label_en": "emerging-market equities",         "label_ja": "新興国株式"},
+    {"ticker": "SPAB", "weight": 0.30, "sleeve": "bond",   "label_en": "U.S. investment-grade bonds",      "label_ja": "米国投資適格債券"}
+  ],
+  "macro": {
+    "cli_areas": [
+      {"code": "G7",  "label_en": "the G7 economies",               "label_ja": "G7"},
+      {"code": "A5M", "label_en": "the major five Asian economies", "label_ja": "アジア主要5カ国"},
+      {"code": "USA", "label_en": "the United States",              "label_ja": "米国"},
+      {"code": "JPN", "label_en": "Japan",                          "label_ja": "日本"},
+      {"code": "CHN", "label_en": "China",                          "label_ja": "中国"}
+    ],
+    "rate_areas": [
+      {"code": "USA", "label_en": "U.S.",     "label_ja": "米国"},
+      {"code": "JPN", "label_en": "Japanese", "label_ja": "日本"}
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+rules_version = '2';
+// FactLock's ledger is written and read by the Cloud Run service only (Admin SDK bypasses these rules).
+// Browsers sign in to Firebase Authentication but never touch Firestore directly, so nothing is allowed here.
+service cloud.firestore {
+  match /{document=**} {
+    allow read, write: if false;
+  }
+}

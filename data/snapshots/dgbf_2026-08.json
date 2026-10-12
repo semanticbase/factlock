@@ -1,0 +1,1303 @@
+{
+ "schema": "factlock.snapshot.v1",
+ "month": "2026-08",
+ "period_end": "2026-08-31",
+ "built_at": "2026-09-20T15:45:01+00:00",
+ "fund": {
+  "id": "DGBF",
+  "name_en": "Demo Global Balanced Fund",
+  "name_ja": "デモ・グローバル・バランス・ファンド",
+  "note_en": "Hypothetical fund of public ETFs, for demonstration only. Returns are computed from issuer-published ETF total returns, gross of fees, assuming monthly rebalancing to target weights.",
+  "note_ja": "公開ETFで構成したデモ用の仮想ファンドです。騰落率は発行体が公表するETFのトータルリターンから、費用控除前・毎月目標配分へリバランスする前提で算出しています。",
+  "currency": "USD",
+  "components": [
+   {
+    "ticker": "SPY",
+    "weight": 0.4,
+    "sleeve": "equity",
+    "label_en": "U.S. large-cap equities",
+    "label_ja": "米国大型株"
+   },
+   {
+    "ticker": "SPDW",
+    "weight": 0.2,
+    "sleeve": "equity",
+    "label_en": "developed-market equities ex-U.S.",
+    "label_ja": "米国を除く先進国株式"
+   },
+   {
+    "ticker": "SPEM",
+    "weight": 0.1,
+    "sleeve": "equity",
+    "label_en": "emerging-market equities",
+    "label_ja": "新興国株式"
+   },
+   {
+    "ticker": "SPAB",
+    "weight": 0.3,
+    "sleeve": "bond",
+    "label_en": "U.S. investment-grade bonds",
+    "label_ja": "米国投資適格債券"
+   }
+  ],
+  "macro": {
+   "cli_areas": [
+    {
+     "code": "G7",
+     "label_en": "the G7 economies",
+     "label_ja": "G7"
+    },
+    {
+     "code": "A5M",
+     "label_en": "the major five Asian economies",
+     "label_ja": "アジア主要5カ国"
+    },
+    {
+     "code": "USA",
+     "label_en": "the United States",
+     "label_ja": "米国"
+    },
+    {
+     "code": "JPN",
+     "label_en": "Japan",
+     "label_ja": "日本"
+    },
+    {
+     "code": "CHN",
+     "label_en": "China",
+     "label_ja": "中国"
+    }
+   ],
+   "rate_areas": [
+    {
+     "code": "USA",
+     "label_en": "U.S.",
+     "label_ja": "米国"
+    },
+    {
+     "code": "JPN",
+     "label_en": "Japanese",
+     "label_ja": "日本"
+    }
+   ]
+  }
+ },
+ "etfs": {
+  "SPY": {
+   "official_name": "State Street® SPDR® S&P 500® ETF Trust",
+   "asset_class": "Equity",
+   "distribution_frequency": "Quarterly",
+   "returns_as_of": "2026-08-31",
+   "tr_1m": 2.71,
+   "tr_ytd": 13.04,
+   "nav_prev_month_end": {
+    "date": "2026-07-31",
+    "nav": 746.604287
+   },
+   "nav_month_end": {
+    "date": "2026-08-31",
+    "nav": 766.859415
+   },
+   "holdings": {
+    "as_of": "2026-09-17",
+    "count": 505,
+    "top": [
+     {
+      "name": "NVIDIA CORP",
+      "ticker": "NVDA",
+      "identifier": "67066G104",
+      "weight": 8.065936
+     },
+     {
+      "name": "APPLE INC",
+      "ticker": "AAPL",
+      "identifier": "037833100",
+      "weight": 7.514951
+     },
+     {
+      "name": "MICROSOFT CORP",
+      "ticker": "MSFT",
+      "identifier": "594918104",
+      "weight": 5.613785
+     },
+     {
+      "name": "AMAZON.COM INC",
+      "ticker": "AMZN",
+      "identifier": "023135106",
+      "weight": 3.733477
+     },
+     {
+      "name": "ALPHABET INC CL A",
+      "ticker": "GOOGL",
+      "identifier": "02079K305",
+      "weight": 3.09227
+     },
+     {
+      "name": "BROADCOM INC",
+      "ticker": "AVGO",
+      "identifier": "11135F101",
+      "weight": 2.496656
+     },
+     {
+      "name": "ALPHABET INC CL C",
+      "ticker": "GOOG",
+      "identifier": "02079K107",
+      "weight": 2.466308
+     },
+     {
+      "name": "META PLATFORMS INC CLASS A",
+      "ticker": "META",
+      "identifier": "30303M102",
+      "weight": 2.274996
+     },
+     {
+      "name": "MICRON TECHNOLOGY INC",
+      "ticker": "MU",
+      "identifier": "595112103",
+      "weight": 1.67364
+     },
+     {
+      "name": "TESLA INC",
+      "ticker": "TSLA",
+      "identifier": "88160R101",
+      "weight": 1.565225
+     },
+     {
+      "name": "JPMORGAN CHASE + CO",
+      "ticker": "JPM",
+      "identifier": "46625H100",
+      "weight": 1.421031
+     },
+     {
+      "name": "BERKSHIRE HATHAWAY INC CL B",
+      "ticker": "BRK.B",
+      "identifier": "084670702",
+      "weight": 1.417323
+     },
+     {
+      "name": "ELI LILLY + CO",
+      "ticker": "LLY",
+      "identifier": "532457108",
+      "weight": 1.384076
+     },
+     {
+      "name": "ADVANCED MICRO DEVICES",
+      "ticker": "AMD",
+      "identifier": "007903107",
+      "weight": 1.349402
+     },
+     {
+      "name": "EXXONMOBIL HOLDINGS CORP",
+      "ticker": "XOM",
+      "identifier": "30233Q108",
+      "weight": 1.027377
+     }
+    ]
+   }
+  },
+  "SPDW": {
+   "official_name": "State Street® SPDR® Portfolio Developed World ex-US ETF",
+   "asset_class": "Equity",
+   "distribution_frequency": "Semi-Annually",
+   "returns_as_of": "2026-08-31",
+   "tr_1m": 3.14,
+   "tr_ytd": 18.29,
+   "nav_prev_month_end": {
+    "date": "2026-07-31",
+    "nav": 50.278941
+   },
+   "nav_month_end": {
+    "date": "2026-08-31",
+    "nav": 51.856831
+   },
+   "holdings": {
+    "as_of": "2026-09-17",
+    "count": 2473,
+    "top": [
+     {
+      "name": "SAMSUNG ELECTR GDR REG S",
+      "ticker": "SMSN",
+      "identifier": "494281900",
+      "weight": 2.548802
+     },
+     {
+      "name": "SK HYNIX INC",
+      "ticker": "A000660",
+      "identifier": "645026907",
+      "weight": 2.017616
+     },
+     {
+      "name": "ASML HOLDING NV",
+      "ticker": "ASML",
+      "identifier": "ACI02GTQ9",
+      "weight": 1.852945
+     },
+     {
+      "name": "HSBC HOLDINGS PLC",
+      "ticker": "HSBA",
+      "identifier": "054052907",
+      "weight": 1.032106
+     },
+     {
+      "name": "ROCHE HOLDING AG",
+      "ticker": "ROP",
+      "identifier": "ACI38LVK6",
+      "weight": 0.902829
+     },
+     {
+      "name": "MITSUBISHI UFJ FINANCIAL GRO",
+      "ticker": "8306",
+      "identifier": "633517909",
+      "weight": 0.837499
+     },
+     {
+      "name": "ROYAL BANK OF CANADA",
+      "ticker": "RY",
+      "identifier": "780087953",
+      "weight": 0.83543
+     },
+     {
+      "name": "SHELL PLC",
+      "ticker": "SHEL",
+      "identifier": "BP6MXD906",
+      "weight": 0.813516
+     },
+     {
+      "name": "NOVARTIS AG REG",
+      "ticker": "NOVN",
+      "identifier": "710306903",
+      "weight": 0.759399
+     },
+     {
+      "name": "ASTRAZENECA PLC",
+      "ticker": "AZN",
+      "identifier": "098952906",
+      "weight": 0.755166
+     },
+     {
+      "name": "NESTLE SA REG",
+      "ticker": "NESN",
+      "identifier": "712387901",
+      "weight": 0.724591
+     },
+     {
+      "name": "TOYOTA MOTOR CORP",
+      "ticker": "7203",
+      "identifier": "690064001",
+      "weight": 0.692834
+     },
+     {
+      "name": "SIEMENS AG REG",
+      "ticker": "SIE",
+      "identifier": "572797900",
+      "weight": 0.659205
+     },
+     {
+      "name": "BANCO SANTANDER SA",
+      "ticker": "SAN",
+      "identifier": "570594903",
+      "weight": 0.657182
+     },
+     {
+      "name": "SAP SE",
+      "ticker": "SAP",
+      "identifier": "484628904",
+      "weight": 0.645292
+     }
+    ]
+   }
+  },
+  "SPEM": {
+   "official_name": "State Street® SPDR® Portfolio Emerging Markets ETF",
+   "asset_class": "Equity",
+   "distribution_frequency": "Semi-Annually",
+   "returns_as_of": "2026-08-31",
+   "tr_1m": 3.39,
+   "tr_ytd": 14.15,
+   "nav_prev_month_end": {
+    "date": "2026-07-31",
+    "nav": 51.08584
+   },
+   "nav_month_end": {
+    "date": "2026-08-31",
+    "nav": 52.817218
+   },
+   "holdings": {
+    "as_of": "2026-09-17",
+    "count": 3019,
+    "top": [
+     {
+      "name": "TAIWAN SEMICONDUCTOR MANUFAC",
+      "ticker": "2330",
+      "identifier": "688910900",
+      "weight": 14.515697
+     },
+     {
+      "name": "TENCENT HOLDINGS LTD",
+      "ticker": "700",
+      "identifier": "BMMV2K903",
+      "weight": 2.673288
+     },
+     {
+      "name": "ALIBABA GROUP HOLDING LTD",
+      "ticker": "9988",
+      "identifier": "BK6YZP902",
+      "weight": 2.030456
+     },
+     {
+      "name": "MEDIATEK INC",
+      "ticker": "2454",
+      "identifier": "637248907",
+      "weight": 1.897947
+     },
+     {
+      "name": "DELTA ELECTRONICS INC",
+      "ticker": "2308",
+      "identifier": "626073902",
+      "weight": 0.960557
+     },
+     {
+      "name": "CHINA CONSTRUCTION BANK H",
+      "ticker": "939",
+      "identifier": "B0LMTQ900",
+      "weight": 0.957796
+     },
+     {
+      "name": "HON HAI PRECISION INDUSTRY",
+      "ticker": "2317",
+      "identifier": "643856909",
+      "weight": 0.916936
+     },
+     {
+      "name": "RELIANCE INDS SPONS GDR 144A",
+      "ticker": "RIGD",
+      "identifier": "B16CYP903",
+      "weight": 0.743672
+     },
+     {
+      "name": "ASE TECHNOLOGY HOLDING CO LT",
+      "ticker": "3711",
+      "identifier": "ACI126S98",
+      "weight": 0.730722
+     },
+     {
+      "name": "HDFC BANK LIMITED",
+      "ticker": "HDFCB",
+      "identifier": "BK1N46907",
+      "weight": 0.72547
+     },
+     {
+      "name": "ICICI BANK LTD SPON ADR",
+      "ticker": "IBN",
+      "identifier": "45104G104",
+      "weight": 0.680068
+     },
+     {
+      "name": "UNITED MICROELECTRON SP ADR",
+      "ticker": "UMC",
+      "identifier": "910873405",
+      "weight": 0.59485
+     },
+     {
+      "name": "IND + COMM BK OF CHINA H",
+      "ticker": "1398",
+      "identifier": "B1G1QD902",
+      "weight": 0.572073
+     },
+     {
+      "name": "CTBC FINANCIAL HOLDING CO LT",
+      "ticker": "2891",
+      "identifier": "652766908",
+      "weight": 0.551727
+     },
+     {
+      "name": "BHARTI AIRTEL LTD",
+      "ticker": "BHARTI",
+      "identifier": "644232902",
+      "weight": 0.514805
+     }
+    ]
+   }
+  },
+  "SPAB": {
+   "official_name": "State Street® SPDR® Portfolio Aggregate Bond ETF",
+   "asset_class": "Fixed Income",
+   "distribution_frequency": "Monthly",
+   "returns_as_of": "2026-08-31",
+   "tr_1m": 0.39,
+   "tr_ytd": -0.23,
+   "nav_prev_month_end": {
+    "date": "2026-07-31",
+    "nav": 25.09106
+   },
+   "nav_month_end": {
+    "date": "2026-08-31",
+    "nav": 25.098868
+   }
+  }
+ },
+ "macro": {
+  "cli": {
+   "G7": {
+    "label_en": "the G7 economies",
+    "label_ja": "G7",
+    "series": [
+     [
+      "2023-08",
+      98.91125
+     ],
+     [
+      "2023-09",
+      98.93302
+     ],
+     [
+      "2023-10",
+      98.95644
+     ],
+     [
+      "2023-11",
+      98.99854
+     ],
+     [
+      "2023-12",
+      99.06711
+     ],
+     [
+      "2024-01",
+      99.15336
+     ],
+     [
+      "2024-02",
+      99.24538
+     ],
+     [
+      "2024-03",
+      99.3273
+     ],
+     [
+      "2024-04",
+      99.38358
+     ],
+     [
+      "2024-05",
+      99.41444
+     ],
+     [
+      "2024-06",
+      99.43044
+     ],
+     [
+      "2024-07",
+      99.44778
+     ],
+     [
+      "2024-08",
+      99.47607
+     ],
+     [
+      "2024-09",
+      99.52073
+     ],
+     [
+      "2024-10",
+      99.57346
+     ],
+     [
+      "2024-11",
+      99.62455
+     ],
+     [
+      "2024-12",
+      99.65921
+     ],
+     [
+      "2025-01",
+      99.66843
+     ],
+     [
+      "2025-02",
+      99.65496
+     ],
+     [
+      "2025-03",
+      99.62872
+     ],
+     [
+      "2025-04",
+      99.61723
+     ],
+     [
+      "2025-05",
+      99.64948
+     ],
+     [
+      "2025-06",
+      99.71658
+     ],
+     [
+      "2025-07",
+      99.79922
+     ],
+     [
+      "2025-08",
+      99.88826
+     ],
+     [
+      "2025-09",
+      99.98541
+     ],
+     [
+      "2025-10",
+      100.0892
+     ],
+     [
+      "2025-11",
+      100.1971
+     ],
+     [
+      "2025-12",
+      100.3058
+     ],
+     [
+      "2026-01",
+      100.4065
+     ],
+     [
+      "2026-02",
+      100.4834
+     ],
+     [
+      "2026-03",
+      100.535
+     ],
+     [
+      "2026-04",
+      100.5818
+     ],
+     [
+      "2026-05",
+      100.639
+     ],
+     [
+      "2026-06",
+      100.716
+     ],
+     [
+      "2026-07",
+      100.8014
+     ],
+     [
+      "2026-08",
+      100.8786
+     ]
+    ]
+   },
+   "A5M": {
+    "label_en": "the major five Asian economies",
+    "label_ja": "アジア主要5カ国",
+    "series": [
+     [
+      "2023-08",
+      100.9432
+     ],
+     [
+      "2023-09",
+      100.9839
+     ],
+     [
+      "2023-10",
+      100.9629
+     ],
+     [
+      "2023-11",
+      100.89
+     ],
+     [
+      "2023-12",
+      100.7802
+     ],
+     [
+      "2024-01",
+      100.6511
+     ],
+     [
+      "2024-02",
+      100.5211
+     ],
+     [
+      "2024-03",
+      100.3982
+     ],
+     [
+      "2024-04",
+      100.292
+     ],
+     [
+      "2024-05",
+      100.2065
+     ],
+     [
+      "2024-06",
+      100.1466
+     ],
+     [
+      "2024-07",
+      100.1231
+     ],
+     [
+      "2024-08",
+      100.1417
+     ],
+     [
+      "2024-09",
+      100.2036
+     ],
+     [
+      "2024-10",
+      100.2935
+     ],
+     [
+      "2024-11",
+      100.3816
+     ],
+     [
+      "2024-12",
+      100.4482
+     ],
+     [
+      "2025-01",
+      100.4814
+     ],
+     [
+      "2025-02",
+      100.48
+     ],
+     [
+      "2025-03",
+      100.4477
+     ],
+     [
+      "2025-04",
+      100.3949
+     ],
+     [
+      "2025-05",
+      100.3386
+     ],
+     [
+      "2025-06",
+      100.2831
+     ],
+     [
+      "2025-07",
+      100.227
+     ],
+     [
+      "2025-08",
+      100.1696
+     ],
+     [
+      "2025-09",
+      100.1088
+     ],
+     [
+      "2025-10",
+      100.0469
+     ],
+     [
+      "2025-11",
+      99.98976
+     ],
+     [
+      "2025-12",
+      99.93723
+     ],
+     [
+      "2026-01",
+      99.8923
+     ],
+     [
+      "2026-02",
+      99.85189
+     ],
+     [
+      "2026-03",
+      99.80844
+     ],
+     [
+      "2026-04",
+      99.75514
+     ],
+     [
+      "2026-05",
+      99.69305
+     ],
+     [
+      "2026-06",
+      99.62585
+     ],
+     [
+      "2026-07",
+      99.55712
+     ],
+     [
+      "2026-08",
+      99.49566
+     ]
+    ]
+   },
+   "USA": {
+    "label_en": "the United States",
+    "label_ja": "米国",
+    "series": [
+     [
+      "2023-08",
+      98.80821
+     ],
+     [
+      "2023-09",
+      98.84245
+     ],
+     [
+      "2023-10",
+      98.86694
+     ],
+     [
+      "2023-11",
+      98.91296
+     ],
+     [
+      "2023-12",
+      98.99667
+     ],
+     [
+      "2024-01",
+      99.105
+     ],
+     [
+      "2024-02",
+      99.21353
+     ],
+     [
+      "2024-03",
+      99.29774
+     ],
+     [
+      "2024-04",
+      99.33591
+     ],
+     [
+      "2024-05",
+      99.33585
+     ],
+     [
+      "2024-06",
+      99.3275
+     ],
+     [
+      "2024-07",
+      99.34483
+     ],
+     [
+      "2024-08",
+      99.40389
+     ],
+     [
+      "2024-09",
+      99.50469
+     ],
+     [
+      "2024-10",
+      99.62289
+     ],
+     [
+      "2024-11",
+      99.7325
+     ],
+     [
+      "2024-12",
+      99.79936
+     ],
+     [
+      "2025-01",
+      99.80014
+     ],
+     [
+      "2025-02",
+      99.74052
+     ],
+     [
+      "2025-03",
+      99.64484
+     ],
+     [
+      "2025-04",
+      99.55639
+     ],
+     [
+      "2025-05",
+      99.52384
+     ],
+     [
+      "2025-06",
+      99.54102
+     ],
+     [
+      "2025-07",
+      99.57809
+     ],
+     [
+      "2025-08",
+      99.62407
+     ],
+     [
+      "2025-09",
+      99.68774
+     ],
+     [
+      "2025-10",
+      99.77927
+     ],
+     [
+      "2025-11",
+      99.90804
+     ],
+     [
+      "2025-12",
+      100.0671
+     ],
+     [
+      "2026-01",
+      100.2392
+     ],
+     [
+      "2026-02",
+      100.3905
+     ],
+     [
+      "2026-03",
+      100.5105
+     ],
+     [
+      "2026-04",
+      100.6141
+     ],
+     [
+      "2026-05",
+      100.7064
+     ],
+     [
+      "2026-06",
+      100.8031
+     ],
+     [
+      "2026-07",
+      100.8923
+     ],
+     [
+      "2026-08",
+      100.9563
+     ]
+    ]
+   },
+   "JPN": {
+    "label_en": "Japan",
+    "label_ja": "日本",
+    "series": [
+     [
+      "2023-08",
+      99.84732
+     ],
+     [
+      "2023-09",
+      99.83795
+     ],
+     [
+      "2023-10",
+      99.8199
+     ],
+     [
+      "2023-11",
+      99.79686
+     ],
+     [
+      "2023-12",
+      99.77754
+     ],
+     [
+      "2024-01",
+      99.7798
+     ],
+     [
+      "2024-02",
+      99.80964
+     ],
+     [
+      "2024-03",
+      99.84293
+     ],
+     [
+      "2024-04",
+      99.8729
+     ],
+     [
+      "2024-05",
+      99.88425
+     ],
+     [
+      "2024-06",
+      99.8682
+     ],
+     [
+      "2024-07",
+      99.8251
+     ],
+     [
+      "2024-08",
+      99.76307
+     ],
+     [
+      "2024-09",
+      99.70246
+     ],
+     [
+      "2024-10",
+      99.64393
+     ],
+     [
+      "2024-11",
+      99.5893
+     ],
+     [
+      "2024-12",
+      99.54012
+     ],
+     [
+      "2025-01",
+      99.49424
+     ],
+     [
+      "2025-02",
+      99.44802
+     ],
+     [
+      "2025-03",
+      99.40855
+     ],
+     [
+      "2025-04",
+      99.38892
+     ],
+     [
+      "2025-05",
+      99.40737
+     ],
+     [
+      "2025-06",
+      99.45963
+     ],
+     [
+      "2025-07",
+      99.54311
+     ],
+     [
+      "2025-08",
+      99.64154
+     ],
+     [
+      "2025-09",
+      99.74667
+     ],
+     [
+      "2025-10",
+      99.8425
+     ],
+     [
+      "2025-11",
+      99.91978
+     ],
+     [
+      "2025-12",
+      99.98228
+     ],
+     [
+      "2026-01",
+      100.0381
+     ],
+     [
+      "2026-02",
+      100.0907
+     ],
+     [
+      "2026-03",
+      100.1324
+     ],
+     [
+      "2026-04",
+      100.1752
+     ],
+     [
+      "2026-05",
+      100.222
+     ],
+     [
+      "2026-06",
+      100.2669
+     ],
+     [
+      "2026-07",
+      100.2925
+     ],
+     [
+      "2026-08",
+      100.3034
+     ]
+    ]
+   },
+   "CHN": {
+    "label_en": "China",
+    "label_ja": "中国",
+    "series": [
+     [
+      "2023-08",
+      102.1833
+     ],
+     [
+      "2023-09",
+      102.2493
+     ],
+     [
+      "2023-10",
+      102.2011
+     ],
+     [
+      "2023-11",
+      102.0539
+     ],
+     [
+      "2023-12",
+      101.8348
+     ],
+     [
+      "2024-01",
+      101.5752
+     ],
+     [
+      "2024-02",
+      101.3046
+     ],
+     [
+      "2024-03",
+      101.0467
+     ],
+     [
+      "2024-04",
+      100.8198
+     ],
+     [
+      "2024-05",
+      100.6349
+     ],
+     [
+      "2024-06",
+      100.501
+     ],
+     [
+      "2024-07",
+      100.4373
+     ],
+     [
+      "2024-08",
+      100.4574
+     ],
+     [
+      "2024-09",
+      100.566
+     ],
+     [
+      "2024-10",
+      100.7373
+     ],
+     [
+      "2024-11",
+      100.9119
+     ],
+     [
+      "2024-12",
+      101.049
+     ],
+     [
+      "2025-01",
+      101.1221
+     ],
+     [
+      "2025-02",
+      101.1245
+     ],
+     [
+      "2025-03",
+      101.0552
+     ],
+     [
+      "2025-04",
+      100.9252
+     ],
+     [
+      "2025-05",
+      100.7597
+     ],
+     [
+      "2025-06",
+      100.5725
+     ],
+     [
+      "2025-07",
+      100.3664
+     ],
+     [
+      "2025-08",
+      100.1463
+     ],
+     [
+      "2025-09",
+      99.91358
+     ],
+     [
+      "2025-10",
+      99.67773
+     ],
+     [
+      "2025-11",
+      99.45992
+     ],
+     [
+      "2025-12",
+      99.26661
+     ],
+     [
+      "2026-01",
+      99.10379
+     ],
+     [
+      "2026-02",
+      98.96902
+     ],
+     [
+      "2026-03",
+      98.84533
+     ],
+     [
+      "2026-04",
+      98.71164
+     ],
+     [
+      "2026-05",
+      98.56465
+     ],
+     [
+      "2026-06",
+      98.40793
+     ],
+     [
+      "2026-07",
+      98.24941
+     ],
+     [
+      "2026-08",
+      98.10458
+     ]
+    ]
+   }
+  },
+  "lt_rate": {
+   "USA": {
+    "label_en": "U.S.",
+    "label_ja": "米国",
+    "series": [
+     [
+      "2026-05",
+      4.48
+     ],
+     [
+      "2026-06",
+      4.47
+     ],
+     [
+      "2026-07",
+      4.6
+     ],
+     [
+      "2026-08",
+      4.68
+     ]
+    ]
+   },
+   "JPN": {
+    "label_en": "Japanese",
+    "label_ja": "日本",
+    "series": [
+     [
+      "2026-05",
+      2.65
+     ],
+     [
+      "2026-06",
+      2.67
+     ],
+     [
+      "2026-07",
+      2.79
+     ],
+     [
+      "2026-08",
+      2.94
+     ]
+    ]
+   }
+  }
+ },
+ "sources": [
+  {
+   "key": "ssga_product",
+   "publisher": "State Street Global Advisors",
+   "title": "SPDR ETF product data (public download)",
+   "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/spdr-product-data-us-en.xlsx",
+   "retrieved_at": "2026-09-20T15:44:40+00:00",
+   "terms": "Public fund disclosure; use subject to the issuer's website terms. Returns assume reinvestment of distributions."
+  },
+  {
+   "key": "ssga_navhist",
+   "publisher": "State Street Global Advisors",
+   "title": "SPDR ETF daily NAV history (public download)",
+   "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/navhist-us-en-{ticker}.xlsx",
+   "retrieved_at": "2026-09-20T15:44:59+00:00",
+   "terms": "Public fund disclosure; used only for cross-checking month-end values."
+  },
+  {
+   "key": "ssga_holdings",
+   "publisher": "State Street Global Advisors",
+   "title": "SPDR ETF daily holdings (public download); top holdings only",
+   "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-{ticker}.xlsx",
+   "retrieved_at": "2026-09-20T15:44:58+00:00",
+   "terms": "Public fund disclosure; only the largest holdings are stored."
+  },
+  {
+   "key": "oecd_cli",
+   "publisher": "OECD",
+   "title": "Composite Leading Indicators (amplitude adjusted)",
+   "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.STES,DSD_STES@DF_CLI,/G7+A5M+USA+JPN+CHN.M.LI...AA...H?startPeriod=2023-08&dimensionAtObservation=AllDimensions",
+   "retrieved_at": "2026-09-23T09:12:07+00:00",
+   "terms": "CC BY 4.0",
+   "citation": "OECD (2026), Composite leading indicators, OECD Data Explorer (accessed on 23 September 2026)."
+  },
+  {
+   "key": "oecd_finmark",
+   "publisher": "OECD",
+   "title": "Financial market indicators: long-term interest rates (monthly averages)",
+   "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.STES,DSD_STES@DF_FINMARK,/USA+JPN.M.IRLT.PA.....?startPeriod=2026-05&dimensionAtObservation=AllDimensions",
+   "retrieved_at": "2026-09-20T15:45:01+00:00",
+   "terms": "CC BY 4.0",
+   "citation": "OECD (2026), Financial market indicators, OECD Data Explorer (accessed on 20 September 2026)."
+  }
+ ]
+}

@@ -1,0 +1,3037 @@
+{
+ "status": "passed",
+ "iterations": 1,
+ "commentary": [
+  {
+   "key": "market",
+   "heading_en": "Market environment",
+   "heading_ja": "市場環境",
+   "sentences": [
+    {
+     "ref": "market.1",
+     "en": [
+      {
+       "type": "text",
+       "text": "During "
+      },
+      {
+       "type": "fact",
+       "fact_id": "report.month",
+       "format": "name",
+       "text": "August 2026"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "U.S. large-cap equities (SPY)"
+      },
+      {
+       "type": "text",
+       "text": " "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.ret_1m",
+       "format": "verb",
+       "text": "rose 2.71%"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "developed-market equities ex-U.S. (SPDW)"
+      },
+      {
+       "type": "text",
+       "text": " "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.ret_1m",
+       "format": "verb",
+       "text": "rose 3.14%"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "emerging-market equities (SPEM)"
+      },
+      {
+       "type": "text",
+       "text": " "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.ret_1m",
+       "format": "verb",
+       "text": "rose 3.39%"
+      },
+      {
+       "type": "text",
+       "text": ", and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "U.S. investment-grade bonds (SPAB)"
+      },
+      {
+       "type": "text",
+       "text": " "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.ret_1m",
+       "format": "verb",
+       "text": "rose 0.39%"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "fact",
+       "fact_id": "report.month",
+       "format": "name",
+       "text": "2026年8月"
+      },
+      {
+       "type": "text",
+       "text": "において、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "米国大型株（SPY）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.ret_1m",
+       "format": "verb",
+       "text": "2.71%の上昇"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "米国を除く先進国株式（SPDW）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.ret_1m",
+       "format": "verb",
+       "text": "3.14%の上昇"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "新興国株式（SPEM）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.ret_1m",
+       "format": "verb",
+       "text": "3.39%の上昇"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "米国投資適格債券（SPAB）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.ret_1m",
+       "format": "verb",
+       "text": "0.39%の上昇"
+      },
+      {
+       "type": "text",
+       "text": "となりました。"
+      }
+     ],
+     "source_en": "During {{report.month|name}}, {{etf.SPY.label|name}} {{etf.SPY.ret_1m|verb}}, {{etf.SPDW.label|name}} {{etf.SPDW.ret_1m|verb}}, {{etf.SPEM.label|name}} {{etf.SPEM.ret_1m|verb}}, and {{etf.SPAB.label|name}} {{etf.SPAB.ret_1m|verb}}.",
+     "source_ja": "{{report.month|name}}において、{{etf.SPY.label|name}}が{{etf.SPY.ret_1m|verb}}、{{etf.SPDW.label|name}}が{{etf.SPDW.ret_1m|verb}}、{{etf.SPEM.label|name}}が{{etf.SPEM.ret_1m|verb}}、{{etf.SPAB.label|name}}が{{etf.SPAB.ret_1m|verb}}となりました。"
+    },
+    {
+     "ref": "market.2",
+     "en": [
+      {
+       "type": "text",
+       "text": "The OECD leading indicator for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.label",
+       "format": "name",
+       "text": "the G7 economies"
+      },
+      {
+       "type": "text",
+       "text": " stood at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.level",
+       "format": "value",
+       "text": "100.88"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.chg_1m",
+       "format": "verb",
+       "text": "rose 0.08 points"
+      },
+      {
+       "type": "text",
+       "text": ") and is "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.phase",
+       "format": "name",
+       "text": "in an expansion phase (above trend and rising)"
+      },
+      {
+       "type": "text",
+       "text": ", whereas for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.label",
+       "format": "name",
+       "text": "the major five Asian economies"
+      },
+      {
+       "type": "text",
+       "text": " it stood at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.level",
+       "format": "value",
+       "text": "99.50"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.chg_1m",
+       "format": "verb",
+       "text": "fell 0.06 points"
+      },
+      {
+       "type": "text",
+       "text": ") and is "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.phase",
+       "format": "name",
+       "text": "in a slowdown phase (below trend and falling)"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.label",
+       "format": "name",
+       "text": "G7"
+      },
+      {
+       "type": "text",
+       "text": "のOECD景気先行指数は"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.level",
+       "format": "value",
+       "text": "100.88"
+      },
+      {
+       "type": "text",
+       "text": "へ"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.chg_1m",
+       "format": "verb",
+       "text": "0.08ポイントの上昇"
+      },
+      {
+       "type": "text",
+       "text": "を示して"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.G7.phase",
+       "format": "name",
+       "text": "拡大局面（趨勢を上回り上昇）"
+      },
+      {
+       "type": "text",
+       "text": "にある一方、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.label",
+       "format": "name",
+       "text": "アジア主要5カ国"
+      },
+      {
+       "type": "text",
+       "text": "は"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.level",
+       "format": "value",
+       "text": "99.50"
+      },
+      {
+       "type": "text",
+       "text": "へ"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.chg_1m",
+       "format": "verb",
+       "text": "0.06ポイントの低下"
+      },
+      {
+       "type": "text",
+       "text": "を記録し"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.A5M.phase",
+       "format": "name",
+       "text": "後退局面（趨勢を下回り低下）"
+      },
+      {
+       "type": "text",
+       "text": "に位置しています。"
+      }
+     ],
+     "source_en": "The OECD leading indicator for {{cli.G7.label|name}} stood at {{cli.G7.level|value}} ({{cli.G7.chg_1m|verb}}) and is {{cli.G7.phase|name}}, whereas for {{cli.A5M.label|name}} it stood at {{cli.A5M.level|value}} ({{cli.A5M.chg_1m|verb}}) and is {{cli.A5M.phase|name}}.",
+     "source_ja": "{{cli.G7.label|name}}のOECD景気先行指数は{{cli.G7.level|value}}へ{{cli.G7.chg_1m|verb}}を示して{{cli.G7.phase|name}}にある一方、{{cli.A5M.label|name}}は{{cli.A5M.level|value}}へ{{cli.A5M.chg_1m|verb}}を記録し{{cli.A5M.phase|name}}に位置しています。"
+    },
+    {
+     "ref": "market.3",
+     "en": [
+      {
+       "type": "text",
+       "text": "Across key economies, the indicator for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.label",
+       "format": "name",
+       "text": "the United States"
+      },
+      {
+       "type": "text",
+       "text": " stood at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.level",
+       "format": "value",
+       "text": "100.96"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.chg_1m",
+       "format": "verb",
+       "text": "rose 0.06 points"
+      },
+      {
+       "type": "text",
+       "text": "), "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.label",
+       "format": "name",
+       "text": "Japan"
+      },
+      {
+       "type": "text",
+       "text": " was at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.level",
+       "format": "value",
+       "text": "100.30"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.chg_1m",
+       "format": "verb",
+       "text": "rose 0.01 points"
+      },
+      {
+       "type": "text",
+       "text": "), and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.label",
+       "format": "name",
+       "text": "China"
+      },
+      {
+       "type": "text",
+       "text": " recorded "
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.level",
+       "format": "value",
+       "text": "98.10"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.chg_1m",
+       "format": "verb",
+       "text": "fell 0.14 points"
+      },
+      {
+       "type": "text",
+       "text": ")."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "国別の景気先行指数は、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.label",
+       "format": "name",
+       "text": "米国"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.level",
+       "format": "value",
+       "text": "100.96"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.USA.chg_1m",
+       "format": "verb",
+       "text": "0.06ポイントの上昇"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.label",
+       "format": "name",
+       "text": "日本"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.level",
+       "format": "value",
+       "text": "100.30"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.JPN.chg_1m",
+       "format": "verb",
+       "text": "0.01ポイントの上昇"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.label",
+       "format": "name",
+       "text": "中国"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.level",
+       "format": "value",
+       "text": "98.10"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "cli.CHN.chg_1m",
+       "format": "verb",
+       "text": "0.14ポイントの低下"
+      },
+      {
+       "type": "text",
+       "text": "）でした。"
+      }
+     ],
+     "source_en": "Across key economies, the indicator for {{cli.USA.label|name}} stood at {{cli.USA.level|value}} ({{cli.USA.chg_1m|verb}}), {{cli.JPN.label|name}} was at {{cli.JPN.level|value}} ({{cli.JPN.chg_1m|verb}}), and {{cli.CHN.label|name}} recorded {{cli.CHN.level|value}} ({{cli.CHN.chg_1m|verb}}).",
+     "source_ja": "国別の景気先行指数は、{{cli.USA.label|name}}が{{cli.USA.level|value}}（{{cli.USA.chg_1m|verb}}）、{{cli.JPN.label|name}}が{{cli.JPN.level|value}}（{{cli.JPN.chg_1m|verb}}）、{{cli.CHN.label|name}}が{{cli.CHN.level|value}}（{{cli.CHN.chg_1m|verb}}）でした。"
+    },
+    {
+     "ref": "market.4",
+     "en": [
+      {
+       "type": "text",
+       "text": "In fixed income markets, "
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.label",
+       "format": "name",
+       "text": "the U.S. long-term government bond yield (monthly average)"
+      },
+      {
+       "type": "text",
+       "text": " was "
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.level",
+       "format": "value",
+       "text": "4.68%"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.chg_1m",
+       "format": "verb",
+       "text": "rose 0.08 percentage points"
+      },
+      {
+       "type": "text",
+       "text": "), while "
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.label",
+       "format": "name",
+       "text": "the Japanese long-term government bond yield (monthly average)"
+      },
+      {
+       "type": "text",
+       "text": " reached "
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.level",
+       "format": "value",
+       "text": "2.94%"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.chg_1m",
+       "format": "verb",
+       "text": "rose 0.15 percentage points"
+      },
+      {
+       "type": "text",
+       "text": ")."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "債券市場では、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.label",
+       "format": "name",
+       "text": "米国の長期金利（月平均）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.level",
+       "format": "value",
+       "text": "4.68%"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.USA.chg_1m",
+       "format": "verb",
+       "text": "0.08%ポイントの上昇"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.label",
+       "format": "name",
+       "text": "日本の長期金利（月平均）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.level",
+       "format": "value",
+       "text": "2.94%"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "rate.JPN.chg_1m",
+       "format": "verb",
+       "text": "0.15%ポイントの上昇"
+      },
+      {
+       "type": "text",
+       "text": "）で推移しました。"
+      }
+     ],
+     "source_en": "In fixed income markets, {{rate.USA.label|name}} was {{rate.USA.level|value}} ({{rate.USA.chg_1m|verb}}), while {{rate.JPN.label|name}} reached {{rate.JPN.level|value}} ({{rate.JPN.chg_1m|verb}}).",
+     "source_ja": "債券市場では、{{rate.USA.label|name}}が{{rate.USA.level|value}}（{{rate.USA.chg_1m|verb}}）、{{rate.JPN.label|name}}が{{rate.JPN.level|value}}（{{rate.JPN.chg_1m|verb}}）で推移しました。"
+    }
+   ]
+  },
+  {
+   "key": "performance",
+   "heading_en": "Fund performance",
+   "heading_ja": "運用経過",
+   "sentences": [
+    {
+     "ref": "performance.1",
+     "en": [
+      {
+       "type": "text",
+       "text": "In "
+      },
+      {
+       "type": "fact",
+       "fact_id": "report.month",
+       "format": "name",
+       "text": "August 2026"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.name",
+       "format": "name",
+       "text": "Demo Global Balanced Fund"
+      },
+      {
+       "type": "text",
+       "text": " "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.ret_1m",
+       "format": "verb",
+       "text": "rose 2.17%"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "fact",
+       "fact_id": "report.month",
+       "format": "name",
+       "text": "2026年8月"
+      },
+      {
+       "type": "text",
+       "text": "における"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.name",
+       "format": "name",
+       "text": "デモ・グローバル・バランス・ファンド"
+      },
+      {
+       "type": "text",
+       "text": "の騰落率は、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.ret_1m",
+       "format": "verb",
+       "text": "2.17%の上昇"
+      },
+      {
+       "type": "text",
+       "text": "となりました。"
+      }
+     ],
+     "source_en": "In {{report.month|name}}, {{fund.name|name}} {{fund.ret_1m|verb}}.",
+     "source_ja": "{{report.month|name}}における{{fund.name|name}}の騰落率は、{{fund.ret_1m|verb}}となりました。"
+    },
+    {
+     "ref": "performance.2",
+     "en": [
+      {
+       "type": "text",
+       "text": "By component, "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "U.S. large-cap equities (SPY)"
+      },
+      {
+       "type": "text",
+       "text": " contributed "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPY",
+       "format": "signed",
+       "text": "+1.08 pp"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "developed-market equities ex-U.S. (SPDW)"
+      },
+      {
+       "type": "text",
+       "text": " contributed "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPDW",
+       "format": "signed",
+       "text": "+0.63 pp"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "emerging-market equities (SPEM)"
+      },
+      {
+       "type": "text",
+       "text": " contributed "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPEM",
+       "format": "signed",
+       "text": "+0.34 pp"
+      },
+      {
+       "type": "text",
+       "text": ", and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "U.S. investment-grade bonds (SPAB)"
+      },
+      {
+       "type": "text",
+       "text": " contributed "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPAB",
+       "format": "signed",
+       "text": "+0.12 pp"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "資産クラス別の寄与度では、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "米国大型株（SPY）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPY",
+       "format": "signed",
+       "text": "+1.08%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "米国を除く先進国株式（SPDW）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPDW",
+       "format": "signed",
+       "text": "+0.63%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "新興国株式（SPEM）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPEM",
+       "format": "signed",
+       "text": "+0.34%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "米国投資適格債券（SPAB）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.contrib.SPAB",
+       "format": "signed",
+       "text": "+0.12%"
+      },
+      {
+       "type": "text",
+       "text": "でした。"
+      }
+     ],
+     "source_en": "By component, {{etf.SPY.label|name}} contributed {{fund.contrib.SPY|signed}}, {{etf.SPDW.label|name}} contributed {{fund.contrib.SPDW|signed}}, {{etf.SPEM.label|name}} contributed {{fund.contrib.SPEM|signed}}, and {{etf.SPAB.label|name}} contributed {{fund.contrib.SPAB|signed}}.",
+     "source_ja": "資産クラス別の寄与度では、{{etf.SPY.label|name}}が{{fund.contrib.SPY|signed}}、{{etf.SPDW.label|name}}が{{fund.contrib.SPDW|signed}}、{{etf.SPEM.label|name}}が{{fund.contrib.SPEM|signed}}、{{etf.SPAB.label|name}}が{{fund.contrib.SPAB|signed}}でした。"
+    },
+    {
+     "ref": "performance.3",
+     "en": [
+      {
+       "type": "text",
+       "text": "The largest contributor was "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.top_contributor",
+       "format": "name",
+       "text": "U.S. large-cap equities (SPY)"
+      },
+      {
+       "type": "text",
+       "text": " at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.top_contributor_value",
+       "format": "signed",
+       "text": "+1.08 pp"
+      },
+      {
+       "type": "text",
+       "text": ", the smallest contributor was "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.smallest_contributor",
+       "format": "name",
+       "text": "U.S. investment-grade bonds (SPAB)"
+      },
+      {
+       "type": "text",
+       "text": " at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.smallest_contributor_value",
+       "format": "signed",
+       "text": "+0.12 pp"
+      },
+      {
+       "type": "text",
+       "text": ", and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.detractors",
+       "format": "name",
+       "text": "no holding detracted from performance"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "最大の寄与資産は"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.top_contributor",
+       "format": "name",
+       "text": "米国大型株（SPY）"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.top_contributor_value",
+       "format": "signed",
+       "text": "+1.08%"
+      },
+      {
+       "type": "text",
+       "text": "）、寄与が最も小さい資産は"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.smallest_contributor",
+       "format": "name",
+       "text": "米国投資適格債券（SPAB）"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.smallest_contributor_value",
+       "format": "signed",
+       "text": "+0.12%"
+      },
+      {
+       "type": "text",
+       "text": "）であり、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "fund.detractors",
+       "format": "name",
+       "text": "マイナス寄与となった資産はありませんでした"
+      },
+      {
+       "type": "text",
+       "text": "。"
+      }
+     ],
+     "source_en": "The largest contributor was {{fund.top_contributor|name}} at {{fund.top_contributor_value|signed}}, the smallest contributor was {{fund.smallest_contributor|name}} at {{fund.smallest_contributor_value|signed}}, and {{fund.detractors|name}}.",
+     "source_ja": "最大の寄与資産は{{fund.top_contributor|name}}（{{fund.top_contributor_value|signed}}）、寄与が最も小さい資産は{{fund.smallest_contributor|name}}（{{fund.smallest_contributor_value|signed}}）であり、{{fund.detractors|name}}。"
+    }
+   ]
+  },
+  {
+   "key": "portfolio",
+   "heading_en": "Portfolio",
+   "heading_ja": "ポートフォリオ",
+   "sentences": [
+    {
+     "ref": "portfolio.1",
+     "en": [
+      {
+       "type": "text",
+       "text": "The fund's target weights are set at "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.weight",
+       "format": "value",
+       "text": "40.0%"
+      },
+      {
+       "type": "text",
+       "text": " for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "U.S. large-cap equities (SPY)"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.weight",
+       "format": "value",
+       "text": "30.0%"
+      },
+      {
+       "type": "text",
+       "text": " for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "U.S. investment-grade bonds (SPAB)"
+      },
+      {
+       "type": "text",
+       "text": ", "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.weight",
+       "format": "value",
+       "text": "20.0%"
+      },
+      {
+       "type": "text",
+       "text": " for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "developed-market equities ex-U.S. (SPDW)"
+      },
+      {
+       "type": "text",
+       "text": ", and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.weight",
+       "format": "value",
+       "text": "10.0%"
+      },
+      {
+       "type": "text",
+       "text": " for "
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "emerging-market equities (SPEM)"
+      },
+      {
+       "type": "text",
+       "text": "."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "当ファンドの目標配分比率は、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.label",
+       "format": "name",
+       "text": "米国大型株（SPY）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPY.weight",
+       "format": "value",
+       "text": "40.0%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.label",
+       "format": "name",
+       "text": "米国投資適格債券（SPAB）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPAB.weight",
+       "format": "value",
+       "text": "30.0%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.label",
+       "format": "name",
+       "text": "米国を除く先進国株式（SPDW）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPDW.weight",
+       "format": "value",
+       "text": "20.0%"
+      },
+      {
+       "type": "text",
+       "text": "、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.label",
+       "format": "name",
+       "text": "新興国株式（SPEM）"
+      },
+      {
+       "type": "text",
+       "text": "が"
+      },
+      {
+       "type": "fact",
+       "fact_id": "etf.SPEM.weight",
+       "format": "value",
+       "text": "10.0%"
+      },
+      {
+       "type": "text",
+       "text": "です。"
+      }
+     ],
+     "source_en": "The fund's target weights are set at {{etf.SPY.weight|value}} for {{etf.SPY.label|name}}, {{etf.SPAB.weight|value}} for {{etf.SPAB.label|name}}, {{etf.SPDW.weight|value}} for {{etf.SPDW.label|name}}, and {{etf.SPEM.weight|value}} for {{etf.SPEM.label|name}}.",
+     "source_ja": "当ファンドの目標配分比率は、{{etf.SPY.label|name}}が{{etf.SPY.weight|value}}、{{etf.SPAB.label|name}}が{{etf.SPAB.weight|value}}、{{etf.SPDW.label|name}}が{{etf.SPDW.weight|value}}、{{etf.SPEM.label|name}}が{{etf.SPEM.weight|value}}です。"
+    },
+    {
+     "ref": "portfolio.2",
+     "en": [
+      {
+       "type": "text",
+       "text": "As of "
+      },
+      {
+       "type": "fact",
+       "fact_id": "holdings.as_of",
+       "format": "name",
+       "text": "September 17, 2026"
+      },
+      {
+       "type": "text",
+       "text": ", the largest look-through holdings were "
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.1.name",
+       "format": "name",
+       "text": "NVIDIA CORP"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.1.weight",
+       "format": "value",
+       "text": "3.23%"
+      },
+      {
+       "type": "text",
+       "text": "), "
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.2.name",
+       "format": "name",
+       "text": "APPLE INC"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.2.weight",
+       "format": "value",
+       "text": "3.01%"
+      },
+      {
+       "type": "text",
+       "text": "), "
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.3.name",
+       "format": "name",
+       "text": "MICROSOFT CORP"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.3.weight",
+       "format": "value",
+       "text": "2.25%"
+      },
+      {
+       "type": "text",
+       "text": "), "
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.4.name",
+       "format": "name",
+       "text": "AMAZON.COM INC"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.4.weight",
+       "format": "value",
+       "text": "1.49%"
+      },
+      {
+       "type": "text",
+       "text": "), and "
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.5.name",
+       "format": "name",
+       "text": "TAIWAN SEMICONDUCTOR MANUFAC"
+      },
+      {
+       "type": "text",
+       "text": " ("
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.5.weight",
+       "format": "value",
+       "text": "1.45%"
+      },
+      {
+       "type": "text",
+       "text": ")."
+      }
+     ],
+     "ja": [
+      {
+       "type": "fact",
+       "fact_id": "holdings.as_of",
+       "format": "name",
+       "text": "2026年9月17日"
+      },
+      {
+       "type": "text",
+       "text": "時点におけるルックスルー上位銘柄は、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.1.name",
+       "format": "name",
+       "text": "NVIDIA CORP"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.1.weight",
+       "format": "value",
+       "text": "3.23%"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.2.name",
+       "format": "name",
+       "text": "APPLE INC"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.2.weight",
+       "format": "value",
+       "text": "3.01%"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.3.name",
+       "format": "name",
+       "text": "MICROSOFT CORP"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.3.weight",
+       "format": "value",
+       "text": "2.25%"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.4.name",
+       "format": "name",
+       "text": "AMAZON.COM INC"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.4.weight",
+       "format": "value",
+       "text": "1.49%"
+      },
+      {
+       "type": "text",
+       "text": "）、"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.5.name",
+       "format": "name",
+       "text": "TAIWAN SEMICONDUCTOR MANUFAC"
+      },
+      {
+       "type": "text",
+       "text": "（"
+      },
+      {
+       "type": "fact",
+       "fact_id": "lookthrough.5.weight",
+       "format": "value",
+       "text": "1.45%"
+      },
+      {
+       "type": "text",
+       "text": "）となっています。"
+      }
+     ],
+     "source_en": "As of {{holdings.as_of|name}}, the largest look-through holdings were {{lookthrough.1.name|name}} ({{lookthrough.1.weight|value}}), {{lookthrough.2.name|name}} ({{lookthrough.2.weight|value}}), {{lookthrough.3.name|name}} ({{lookthrough.3.weight|value}}), {{lookthrough.4.name|name}} ({{lookthrough.4.weight|value}}), and {{lookthrough.5.name|name}} ({{lookthrough.5.weight|value}}).",
+     "source_ja": "{{holdings.as_of|name}}時点におけるルックスルー上位銘柄は、{{lookthrough.1.name|name}}（{{lookthrough.1.weight|value}}）、{{lookthrough.2.name|name}}（{{lookthrough.2.weight|value}}）、{{lookthrough.3.name|name}}（{{lookthrough.3.weight|value}}）、{{lookthrough.4.name|name}}（{{lookthrough.4.weight|value}}）、{{lookthrough.5.name|name}}（{{lookthrough.5.weight|value}}）となっています。"
+    }
+   ]
+  },
+  {
+   "key": "outlook",
+   "heading_en": "Outlook",
+   "heading_ja": "今後の見通し",
+   "sentences": [
+    {
+     "ref": "outlook.1",
+     "en": [
+      {
+       "type": "text",
+       "text": "The management team will continue to observe trends in leading indicators across major regions and developments in interest rates."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "運用チームは、主要地域の景気先行指数の推移や金利動向を引き続き注視してまいります。"
+      }
+     ],
+     "source_en": "The management team will continue to observe trends in leading indicators across major regions and developments in interest rates.",
+     "source_ja": "運用チームは、主要地域の景気先行指数の推移や金利動向を引き続き注視してまいります。"
+    },
+    {
+     "ref": "outlook.2",
+     "en": [
+      {
+       "type": "text",
+       "text": "The fund remains managed with disciplined risk control aligned with its target asset allocation framework."
+      }
+     ],
+     "ja": [
+      {
+       "type": "text",
+       "text": "今後も目標資産配分の方針に基づき、慎重かつ規律あるリスク管理を維持して運用を行う方針です。"
+      }
+     ],
+     "source_en": "The fund remains managed with disciplined risk control aligned with its target asset allocation framework.",
+     "source_ja": "今後も目標資産配分の方針に基づき、慎重かつ規律あるリスク管理を維持して運用を行う方針です。"
+    }
+   ]
+  }
+ ],
+ "report": {
+  "passed": true,
+  "errors": [],
+  "warnings": [],
+  "rule_counts": {}
+ },
+ "history": [
+  {
+   "iteration": 1,
+   "at": "2026-09-23T23:52:44.996+00:00",
+   "passed": true,
+   "reviewer": "ran",
+   "errors": [],
+   "warnings": [],
+   "draft_raw": "{\n  \"sections\": [\n    {\n      \"key\": \"market\",\n      \"sentences\": [\n        {\n          \"en\": \"During {{report.month|name}}, {{etf.SPY.label|name}} {{etf.SPY.ret_1m|verb}}, {{etf.SPDW.label|name}} {{etf.SPDW.ret_1m|verb}}, {{etf.SPEM.label|name}} {{etf.SPEM.ret_1m|verb}}, and {{etf.SPAB.label|name}} {{etf.SPAB.ret_1m|verb}}.\",\n          \"ja\": \"{{report.month|name}}において、{{etf.SPY.label|name}}が{{etf.SPY.ret_1m|verb}}、{{etf.SPDW.label|name}}が{{etf.SPDW.ret_1m|verb}}、{{etf.SPEM.label|name}}が{{etf.SPEM.ret_1m|verb}}、{{etf.SPAB.label|name}}が{{etf.SPAB.ret_1m|verb}}となりました。\"\n        },\n        {\n          \"en\": \"The OECD leading indicator for {{cli.G7.label|name}} stood at {{cli.G7.level|value}} ({{cli.G7.chg_1m|verb}}) and is {{cli.G7.phase|name}}, whereas for {{cli.A5M.label|name}} it stood at {{cli.A5M.level|value}} ({{cli.A5M.chg_1m|verb}}) and is {{cli.A5M.phase|name}}.\",\n          \"ja\": \"{{cli.G7.label|name}}のOECD景気先行指数は{{cli.G7.level|value}}へ{{cli.G7.chg_1m|verb}}を示して{{cli.G7.phase|name}}にある一方、{{cli.A5M.label|name}}は{{cli.A5M.level|value}}へ{{cli.A5M.chg_1m|verb}}を記録し{{cli.A5M.phase|name}}に位置しています。\"\n        },\n        {\n          \"en\": \"Across key economies, the indicator for {{cli.USA.label|name}} stood at {{cli.USA.level|value}} ({{cli.USA.chg_1m|verb}}), {{cli.JPN.label|name}} was at {{cli.JPN.level|value}} ({{cli.JPN.chg_1m|verb}}), and {{cli.CHN.label|name}} recorded {{cli.CHN.level|value}} ({{cli.CHN.chg_1m|verb}}).\",\n          \"ja\": \"国別の景気先行指数は、{{cli.USA.label|name}}が{{cli.USA.level|value}}（{{cli.USA.chg_1m|verb}}）、{{cli.JPN.label|name}}が{{cli.JPN.level|value}}（{{cli.JPN.chg_1m|verb}}）、{{cli.CHN.label|name}}が{{cli.CHN.level|value}}（{{cli.CHN.chg_1m|verb}}）でした。\"\n        },\n        {\n          \"en\": \"In fixed income markets, {{rate.USA.label|name}} was {{rate.USA.level|value}} ({{rate.USA.chg_1m|verb}}), while {{rate.JPN.label|name}} reached {{rate.JPN.level|value}} ({{rate.JPN.chg_1m|verb}}).\",\n          \"ja\": \"債券市場では、{{rate.USA.label|name}}が{{rate.USA.level|value}}（{{rate.USA.chg_1m|verb}}）、{{rate.JPN.label|name}}が{{rate.JPN.level|value}}（{{rate.JPN.chg_1m|verb}}）で推移しました。\"\n        }\n      ]\n    },\n    {\n      \"key\": \"performance\",\n      \"sentences\": [\n        {\n          \"en\": \"In {{report.month|name}}, {{fund.name|name}} {{fund.ret_1m|verb}}.\",\n          \"ja\": \"{{report.month|name}}における{{fund.name|name}}の騰落率は、{{fund.ret_1m|verb}}となりました。\"\n        },\n        {\n          \"en\": \"By component, {{etf.SPY.label|name}} contributed {{fund.contrib.SPY|signed}}, {{etf.SPDW.label|name}} contributed {{fund.contrib.SPDW|signed}}, {{etf.SPEM.label|name}} contributed {{fund.contrib.SPEM|signed}}, and {{etf.SPAB.label|name}} contributed {{fund.contrib.SPAB|signed}}.\",\n          \"ja\": \"資産クラス別の寄与度では、{{etf.SPY.label|name}}が{{fund.contrib.SPY|signed}}、{{etf.SPDW.label|name}}が{{fund.contrib.SPDW|signed}}、{{etf.SPEM.label|name}}が{{fund.contrib.SPEM|signed}}、{{etf.SPAB.label|name}}が{{fund.contrib.SPAB|signed}}でした。\"\n        },\n        {\n          \"en\": \"The largest contributor was {{fund.top_contributor|name}} at {{fund.top_contributor_value|signed}}, the smallest contributor was {{fund.smallest_contributor|name}} at {{fund.smallest_contributor_value|signed}}, and {{fund.detractors|name}}.\",\n          \"ja\": \"最大の寄与資産は{{fund.top_contributor|name}}（{{fund.top_contributor_value|signed}}）、寄与が最も小さい資産は{{fund.smallest_contributor|name}}（{{fund.smallest_contributor_value|signed}}）であり、{{fund.detractors|name}}。\"\n        }\n      ]\n    },\n    {\n      \"key\": \"portfolio\",\n      \"sentences\": [\n        {\n          \"en\": \"The fund's target weights are set at {{etf.SPY.weight|value}} for {{etf.SPY.label|name}}, {{etf.SPAB.weight|value}} for {{etf.SPAB.label|name}}, {{etf.SPDW.weight|value}} for {{etf.SPDW.label|name}}, and {{etf.SPEM.weight|value}} for {{etf.SPEM.label|name}}.\",\n          \"ja\": \"当ファンドの目標配分比率は、{{etf.SPY.label|name}}が{{etf.SPY.weight|value}}、{{etf.SPAB.label|name}}が{{etf.SPAB.weight|value}}、{{etf.SPDW.label|name}}が{{etf.SPDW.weight|value}}、{{etf.SPEM.label|name}}が{{etf.SPEM.weight|value}}です。\"\n        },\n        {\n          \"en\": \"As of {{holdings.as_of|name}}, the largest look-through holdings were {{lookthrough.1.name|name}} ({{lookthrough.1.weight|value}}), {{lookthrough.2.name|name}} ({{lookthrough.2.weight|value}}), {{lookthrough.3.name|name}} ({{lookthrough.3.weight|value}}), {{lookthrough.4.name|name}} ({{lookthrough.4.weight|value}}), and {{lookthrough.5.name|name}} ({{lookthrough.5.weight|value}}).\",\n          \"ja\": \"{{holdings.as_of|name}}時点におけるルックスルー上位銘柄は、{{lookthrough.1.name|name}}（{{lookthrough.1.weight|value}}）、{{lookthrough.2.name|name}}（{{lookthrough.2.weight|value}}）、{{lookthrough.3.name|name}}（{{lookthrough.3.weight|value}}）、{{lookthrough.4.name|name}}（{{lookthrough.4.weight|value}}）、{{lookthrough.5.name|name}}（{{lookthrough.5.weight|value}}）となっています。\"\n        }\n      ]\n    },\n    {\n      \"key\": \"outlook\",\n      \"sentences\": [\n        {\n          \"en\": \"The management team will continue to observe trends in leading indicators across major regions and developments in interest rates.\",\n          \"ja\": \"運用チームは、主要地域の景気先行指数の推移や金利動向を引き続き注視してまいります。\"\n        },\n        {\n          \"en\": \"The fund remains managed with disciplined risk control aligned with its target asset allocation framework.\",\n          \"ja\": \"今後も目標資産配分の方針に基づき、慎重かつ規律あるリスク管理を維持して運用を行う方針です。\"\n        }\n      ]\n    }\n  ]\n}"
+  }
+ ],
+ "fact_sheet": {
+  "fund_id": "DGBF",
+  "fund_name_en": "Demo Global Balanced Fund",
+  "fund_name_ja": "デモ・グローバル・バランス・ファンド",
+  "fund_note_en": "Hypothetical fund of public ETFs, for demonstration only. Returns are computed from issuer-published ETF total returns, gross of fees, assuming monthly rebalancing to target weights.",
+  "fund_note_ja": "公開ETFで構成したデモ用の仮想ファンドです。騰落率は発行体が公表するETFのトータルリターンから、費用控除前・毎月目標配分へリバランスする前提で算出しています。",
+  "month": "2026-08",
+  "period_end": "2026-08-31",
+  "facts": {
+   "report.month": {
+    "id": "report.month",
+    "unit": "text",
+    "value": null,
+    "text_en": "August 2026",
+    "text_ja": "2026年8月",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Report month",
+    "label_ja": "対象月",
+    "source": "report",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "report.period_end": {
+    "id": "report.period_end",
+    "unit": "text",
+    "value": null,
+    "text_en": "August 31, 2026",
+    "text_ja": "2026年8月31日",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Month-end date",
+    "label_ja": "月末日",
+    "source": "report",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.name": {
+    "id": "fund.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "Demo Global Balanced Fund",
+    "text_ja": "デモ・グローバル・バランス・ファンド",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Fund name",
+    "label_ja": "ファンド名",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPY.label": {
+    "id": "etf.SPY.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "U.S. large-cap equities (SPY)",
+    "text_ja": "米国大型株（SPY）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPY asset class",
+    "label_ja": "SPYの資産クラス",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPY.weight": {
+    "id": "etf.SPY.weight",
+    "unit": "weight",
+    "value": 40.0,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 1,
+    "as_of": "2026-08-31",
+    "label_en": "Target weight of SPY",
+    "label_ja": "SPYの目標配分",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPY.ret_1m": {
+    "id": "etf.SPY.ret_1m",
+    "unit": "pct",
+    "value": 2.71,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPY total return, 1 month",
+    "label_ja": "SPYの1か月トータルリターン",
+    "source": "ssga_product",
+    "derivation": "Issuer-published NAV total return (distributions reinvested)",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.contrib.SPY": {
+    "id": "fund.contrib.SPY",
+    "unit": "contrib",
+    "value": 1.084,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Contribution of SPY",
+    "label_ja": "SPYの寄与度",
+    "source": "derived",
+    "derivation": "target weight × 1-month total return",
+    "inputs": [
+     "etf.SPY.weight",
+     "etf.SPY.ret_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPDW.label": {
+    "id": "etf.SPDW.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "developed-market equities ex-U.S. (SPDW)",
+    "text_ja": "米国を除く先進国株式（SPDW）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPDW asset class",
+    "label_ja": "SPDWの資産クラス",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPDW.weight": {
+    "id": "etf.SPDW.weight",
+    "unit": "weight",
+    "value": 20.0,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 1,
+    "as_of": "2026-08-31",
+    "label_en": "Target weight of SPDW",
+    "label_ja": "SPDWの目標配分",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPDW.ret_1m": {
+    "id": "etf.SPDW.ret_1m",
+    "unit": "pct",
+    "value": 3.14,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPDW total return, 1 month",
+    "label_ja": "SPDWの1か月トータルリターン",
+    "source": "ssga_product",
+    "derivation": "Issuer-published NAV total return (distributions reinvested)",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.contrib.SPDW": {
+    "id": "fund.contrib.SPDW",
+    "unit": "contrib",
+    "value": 0.6280000000000001,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Contribution of SPDW",
+    "label_ja": "SPDWの寄与度",
+    "source": "derived",
+    "derivation": "target weight × 1-month total return",
+    "inputs": [
+     "etf.SPDW.weight",
+     "etf.SPDW.ret_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPEM.label": {
+    "id": "etf.SPEM.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "emerging-market equities (SPEM)",
+    "text_ja": "新興国株式（SPEM）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPEM asset class",
+    "label_ja": "SPEMの資産クラス",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPEM.weight": {
+    "id": "etf.SPEM.weight",
+    "unit": "weight",
+    "value": 10.0,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 1,
+    "as_of": "2026-08-31",
+    "label_en": "Target weight of SPEM",
+    "label_ja": "SPEMの目標配分",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPEM.ret_1m": {
+    "id": "etf.SPEM.ret_1m",
+    "unit": "pct",
+    "value": 3.39,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPEM total return, 1 month",
+    "label_ja": "SPEMの1か月トータルリターン",
+    "source": "ssga_product",
+    "derivation": "Issuer-published NAV total return (distributions reinvested)",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.contrib.SPEM": {
+    "id": "fund.contrib.SPEM",
+    "unit": "contrib",
+    "value": 0.339,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Contribution of SPEM",
+    "label_ja": "SPEMの寄与度",
+    "source": "derived",
+    "derivation": "target weight × 1-month total return",
+    "inputs": [
+     "etf.SPEM.weight",
+     "etf.SPEM.ret_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPAB.label": {
+    "id": "etf.SPAB.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "U.S. investment-grade bonds (SPAB)",
+    "text_ja": "米国投資適格債券（SPAB）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPAB asset class",
+    "label_ja": "SPABの資産クラス",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPAB.weight": {
+    "id": "etf.SPAB.weight",
+    "unit": "weight",
+    "value": 30.0,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 1,
+    "as_of": "2026-08-31",
+    "label_en": "Target weight of SPAB",
+    "label_ja": "SPABの目標配分",
+    "source": "fund_definition",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "etf.SPAB.ret_1m": {
+    "id": "etf.SPAB.ret_1m",
+    "unit": "pct",
+    "value": 0.39,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "SPAB total return, 1 month",
+    "label_ja": "SPABの1か月トータルリターン",
+    "source": "ssga_product",
+    "derivation": "Issuer-published NAV total return (distributions reinvested)",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.contrib.SPAB": {
+    "id": "fund.contrib.SPAB",
+    "unit": "contrib",
+    "value": 0.11699999999999999,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Contribution of SPAB",
+    "label_ja": "SPABの寄与度",
+    "source": "derived",
+    "derivation": "target weight × 1-month total return",
+    "inputs": [
+     "etf.SPAB.weight",
+     "etf.SPAB.ret_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.ret_1m": {
+    "id": "fund.ret_1m",
+    "unit": "pct",
+    "value": 2.168,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Fund return, 1 month (hypothetical, gross)",
+    "label_ja": "ファンドの1か月騰落率（仮想・費用控除前）",
+    "source": "derived",
+    "derivation": "Σ target weight × component 1-month total return",
+    "inputs": [
+     "fund.contrib.SPY",
+     "fund.contrib.SPDW",
+     "fund.contrib.SPEM",
+     "fund.contrib.SPAB"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.top_contributor": {
+    "id": "fund.top_contributor",
+    "unit": "text",
+    "value": null,
+    "text_en": "U.S. large-cap equities (SPY)",
+    "text_ja": "米国大型株（SPY）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Largest contributor",
+    "label_ja": "最大の寄与資産",
+    "source": "derived",
+    "derivation": "argmax of contributions",
+    "inputs": [
+     "fund.contrib.SPY",
+     "fund.contrib.SPDW",
+     "fund.contrib.SPEM",
+     "fund.contrib.SPAB"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.top_contributor_value": {
+    "id": "fund.top_contributor_value",
+    "unit": "contrib",
+    "value": 1.084,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Largest contribution",
+    "label_ja": "最大の寄与度",
+    "source": "derived",
+    "derivation": "contribution of the largest contributor",
+    "inputs": [
+     "fund.contrib.SPY"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.smallest_contributor": {
+    "id": "fund.smallest_contributor",
+    "unit": "text",
+    "value": null,
+    "text_en": "U.S. investment-grade bonds (SPAB)",
+    "text_ja": "米国投資適格債券（SPAB）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Smallest contributor",
+    "label_ja": "寄与が最も小さい資産",
+    "source": "derived",
+    "derivation": "argmin of contributions",
+    "inputs": [
+     "fund.contrib.SPY",
+     "fund.contrib.SPDW",
+     "fund.contrib.SPEM",
+     "fund.contrib.SPAB"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.smallest_contributor_value": {
+    "id": "fund.smallest_contributor_value",
+    "unit": "contrib",
+    "value": 0.11699999999999999,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Smallest contribution",
+    "label_ja": "最小の寄与度",
+    "source": "derived",
+    "derivation": "contribution of the smallest contributor",
+    "inputs": [
+     "fund.contrib.SPAB"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "fund.detractors": {
+    "id": "fund.detractors",
+    "unit": "text",
+    "value": null,
+    "text_en": "no holding detracted from performance",
+    "text_ja": "マイナス寄与となった資産はありませんでした",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Detractors",
+    "label_ja": "マイナス寄与の資産",
+    "source": "derived",
+    "derivation": "components with a negative contribution",
+    "inputs": [
+     "fund.contrib.SPY",
+     "fund.contrib.SPDW",
+     "fund.contrib.SPEM",
+     "fund.contrib.SPAB"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.G7.label": {
+    "id": "cli.G7.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "the G7 economies",
+    "text_ja": "G7",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Area name (G7)",
+    "label_ja": "地域名（G7）",
+    "source": "oecd_cli",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.G7.level": {
+    "id": "cli.G7.level",
+    "unit": "index",
+    "value": 100.8786,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "OECD leading indicator level, G7",
+    "label_ja": "OECD景気先行指数の水準（G7）",
+    "source": "oecd_cli",
+    "derivation": "Amplitude-adjusted CLI; long-term trend = 100",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.G7.chg_1m": {
+    "id": "cli.G7.chg_1m",
+    "unit": "pt",
+    "value": 0.07720000000000482,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the leading indicator, G7",
+    "label_ja": "景気先行指数の前月差（G7）",
+    "source": "derived",
+    "derivation": "level 2026-08 − level 2026-07",
+    "inputs": [
+     "cli.G7.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "cli.G7.trend": {
+    "id": "cli.G7.trend",
+    "unit": "text",
+    "value": null,
+    "text_en": "above its long-term trend level of 100",
+    "text_ja": "長期的な趨勢水準（100）を上回る水準",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Level versus trend, G7",
+    "label_ja": "趨勢水準との比較（G7）",
+    "source": "derived",
+    "derivation": "level compared with 100",
+    "inputs": [
+     "cli.G7.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.G7.phase": {
+    "id": "cli.G7.phase",
+    "unit": "text",
+    "value": null,
+    "text_en": "in an expansion phase (above trend and rising)",
+    "text_ja": "拡大局面（趨勢を上回り上昇）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Cycle phase (OECD reading), G7",
+    "label_ja": "景気局面（OECDの読み方）（G7）",
+    "source": "derived",
+    "derivation": "level vs 100 and month-on-month direction",
+    "inputs": [
+     "cli.G7.level",
+     "cli.G7.chg_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.G7.streak": {
+    "id": "cli.G7.streak",
+    "unit": "text",
+    "value": null,
+    "text_en": "has risen for 16 consecutive months",
+    "text_ja": "16か月連続で上昇しています",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Run of monthly changes, G7",
+    "label_ja": "連続変化の月数（G7）",
+    "source": "derived",
+    "derivation": "16 rises in a row, changes 2025-05 to 2026-08; data from 2023-08",
+    "inputs": [
+     "cli.G7.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.A5M.label": {
+    "id": "cli.A5M.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "the major five Asian economies",
+    "text_ja": "アジア主要5カ国",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Area name (A5M)",
+    "label_ja": "地域名（A5M）",
+    "source": "oecd_cli",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.A5M.level": {
+    "id": "cli.A5M.level",
+    "unit": "index",
+    "value": 99.49566,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "OECD leading indicator level, A5M",
+    "label_ja": "OECD景気先行指数の水準（A5M）",
+    "source": "oecd_cli",
+    "derivation": "Amplitude-adjusted CLI; long-term trend = 100",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.A5M.chg_1m": {
+    "id": "cli.A5M.chg_1m",
+    "unit": "pt",
+    "value": -0.06145999999999674,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the leading indicator, A5M",
+    "label_ja": "景気先行指数の前月差（A5M）",
+    "source": "derived",
+    "derivation": "level 2026-08 − level 2026-07",
+    "inputs": [
+     "cli.A5M.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "cli.A5M.trend": {
+    "id": "cli.A5M.trend",
+    "unit": "text",
+    "value": null,
+    "text_en": "below its long-term trend level of 100",
+    "text_ja": "長期的な趨勢水準（100）を下回る水準",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Level versus trend, A5M",
+    "label_ja": "趨勢水準との比較（A5M）",
+    "source": "derived",
+    "derivation": "level compared with 100",
+    "inputs": [
+     "cli.A5M.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.A5M.phase": {
+    "id": "cli.A5M.phase",
+    "unit": "text",
+    "value": null,
+    "text_en": "in a slowdown phase (below trend and falling)",
+    "text_ja": "後退局面（趨勢を下回り低下）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Cycle phase (OECD reading), A5M",
+    "label_ja": "景気局面（OECDの読み方）（A5M）",
+    "source": "derived",
+    "derivation": "level vs 100 and month-on-month direction",
+    "inputs": [
+     "cli.A5M.level",
+     "cli.A5M.chg_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.A5M.streak": {
+    "id": "cli.A5M.streak",
+    "unit": "text",
+    "value": null,
+    "text_en": "has fallen for 19 consecutive months",
+    "text_ja": "19か月連続で低下しています",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Run of monthly changes, A5M",
+    "label_ja": "連続変化の月数（A5M）",
+    "source": "derived",
+    "derivation": "19 falls in a row, changes 2025-02 to 2026-08; data from 2023-08",
+    "inputs": [
+     "cli.A5M.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.USA.label": {
+    "id": "cli.USA.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "the United States",
+    "text_ja": "米国",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Area name (USA)",
+    "label_ja": "地域名（USA）",
+    "source": "oecd_cli",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.USA.level": {
+    "id": "cli.USA.level",
+    "unit": "index",
+    "value": 100.9563,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "OECD leading indicator level, USA",
+    "label_ja": "OECD景気先行指数の水準（USA）",
+    "source": "oecd_cli",
+    "derivation": "Amplitude-adjusted CLI; long-term trend = 100",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.USA.chg_1m": {
+    "id": "cli.USA.chg_1m",
+    "unit": "pt",
+    "value": 0.06399999999999295,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the leading indicator, USA",
+    "label_ja": "景気先行指数の前月差（USA）",
+    "source": "derived",
+    "derivation": "level 2026-08 − level 2026-07",
+    "inputs": [
+     "cli.USA.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "cli.USA.trend": {
+    "id": "cli.USA.trend",
+    "unit": "text",
+    "value": null,
+    "text_en": "above its long-term trend level of 100",
+    "text_ja": "長期的な趨勢水準（100）を上回る水準",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Level versus trend, USA",
+    "label_ja": "趨勢水準との比較（USA）",
+    "source": "derived",
+    "derivation": "level compared with 100",
+    "inputs": [
+     "cli.USA.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.USA.phase": {
+    "id": "cli.USA.phase",
+    "unit": "text",
+    "value": null,
+    "text_en": "in an expansion phase (above trend and rising)",
+    "text_ja": "拡大局面（趨勢を上回り上昇）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Cycle phase (OECD reading), USA",
+    "label_ja": "景気局面（OECDの読み方）（USA）",
+    "source": "derived",
+    "derivation": "level vs 100 and month-on-month direction",
+    "inputs": [
+     "cli.USA.level",
+     "cli.USA.chg_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.USA.streak": {
+    "id": "cli.USA.streak",
+    "unit": "text",
+    "value": null,
+    "text_en": "has risen for 15 consecutive months",
+    "text_ja": "15か月連続で上昇しています",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Run of monthly changes, USA",
+    "label_ja": "連続変化の月数（USA）",
+    "source": "derived",
+    "derivation": "15 rises in a row, changes 2025-06 to 2026-08; data from 2023-08",
+    "inputs": [
+     "cli.USA.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.JPN.label": {
+    "id": "cli.JPN.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "Japan",
+    "text_ja": "日本",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Area name (JPN)",
+    "label_ja": "地域名（JPN）",
+    "source": "oecd_cli",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.JPN.level": {
+    "id": "cli.JPN.level",
+    "unit": "index",
+    "value": 100.3034,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "OECD leading indicator level, JPN",
+    "label_ja": "OECD景気先行指数の水準（JPN）",
+    "source": "oecd_cli",
+    "derivation": "Amplitude-adjusted CLI; long-term trend = 100",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.JPN.chg_1m": {
+    "id": "cli.JPN.chg_1m",
+    "unit": "pt",
+    "value": 0.01089999999999236,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the leading indicator, JPN",
+    "label_ja": "景気先行指数の前月差（JPN）",
+    "source": "derived",
+    "derivation": "level 2026-08 − level 2026-07",
+    "inputs": [
+     "cli.JPN.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "cli.JPN.trend": {
+    "id": "cli.JPN.trend",
+    "unit": "text",
+    "value": null,
+    "text_en": "above its long-term trend level of 100",
+    "text_ja": "長期的な趨勢水準（100）を上回る水準",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Level versus trend, JPN",
+    "label_ja": "趨勢水準との比較（JPN）",
+    "source": "derived",
+    "derivation": "level compared with 100",
+    "inputs": [
+     "cli.JPN.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.JPN.phase": {
+    "id": "cli.JPN.phase",
+    "unit": "text",
+    "value": null,
+    "text_en": "in an expansion phase (above trend and rising)",
+    "text_ja": "拡大局面（趨勢を上回り上昇）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Cycle phase (OECD reading), JPN",
+    "label_ja": "景気局面（OECDの読み方）（JPN）",
+    "source": "derived",
+    "derivation": "level vs 100 and month-on-month direction",
+    "inputs": [
+     "cli.JPN.level",
+     "cli.JPN.chg_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.JPN.streak": {
+    "id": "cli.JPN.streak",
+    "unit": "text",
+    "value": null,
+    "text_en": "has risen for 16 consecutive months",
+    "text_ja": "16か月連続で上昇しています",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Run of monthly changes, JPN",
+    "label_ja": "連続変化の月数（JPN）",
+    "source": "derived",
+    "derivation": "16 rises in a row, changes 2025-05 to 2026-08; data from 2023-08",
+    "inputs": [
+     "cli.JPN.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.CHN.label": {
+    "id": "cli.CHN.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "China",
+    "text_ja": "中国",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Area name (CHN)",
+    "label_ja": "地域名（CHN）",
+    "source": "oecd_cli",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.CHN.level": {
+    "id": "cli.CHN.level",
+    "unit": "index",
+    "value": 98.10458,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "OECD leading indicator level, CHN",
+    "label_ja": "OECD景気先行指数の水準（CHN）",
+    "source": "oecd_cli",
+    "derivation": "Amplitude-adjusted CLI; long-term trend = 100",
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.CHN.chg_1m": {
+    "id": "cli.CHN.chg_1m",
+    "unit": "pt",
+    "value": -0.1448299999999989,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the leading indicator, CHN",
+    "label_ja": "景気先行指数の前月差（CHN）",
+    "source": "derived",
+    "derivation": "level 2026-08 − level 2026-07",
+    "inputs": [
+     "cli.CHN.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "cli.CHN.trend": {
+    "id": "cli.CHN.trend",
+    "unit": "text",
+    "value": null,
+    "text_en": "below its long-term trend level of 100",
+    "text_ja": "長期的な趨勢水準（100）を下回る水準",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Level versus trend, CHN",
+    "label_ja": "趨勢水準との比較（CHN）",
+    "source": "derived",
+    "derivation": "level compared with 100",
+    "inputs": [
+     "cli.CHN.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.CHN.phase": {
+    "id": "cli.CHN.phase",
+    "unit": "text",
+    "value": null,
+    "text_en": "in a slowdown phase (below trend and falling)",
+    "text_ja": "後退局面（趨勢を下回り低下）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Cycle phase (OECD reading), CHN",
+    "label_ja": "景気局面（OECDの読み方）（CHN）",
+    "source": "derived",
+    "derivation": "level vs 100 and month-on-month direction",
+    "inputs": [
+     "cli.CHN.level",
+     "cli.CHN.chg_1m"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "cli.CHN.streak": {
+    "id": "cli.CHN.streak",
+    "unit": "text",
+    "value": null,
+    "text_en": "has fallen for 18 consecutive months",
+    "text_ja": "18か月連続で低下しています",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Run of monthly changes, CHN",
+    "label_ja": "連続変化の月数（CHN）",
+    "source": "derived",
+    "derivation": "18 falls in a row, changes 2025-03 to 2026-08; data from 2023-08",
+    "inputs": [
+     "cli.CHN.level"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "rate.USA.label": {
+    "id": "rate.USA.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "the U.S. long-term government bond yield (monthly average)",
+    "text_ja": "米国の長期金利（月平均）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Rate name (USA)",
+    "label_ja": "金利の名称（USA）",
+    "source": "oecd_finmark",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "rate.USA.level": {
+    "id": "rate.USA.level",
+    "unit": "pct_pa",
+    "value": 4.68,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Long-term interest rate, USA (monthly average)",
+    "label_ja": "長期金利（USA・月平均）",
+    "source": "oecd_finmark",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "rate.USA.chg_1m": {
+    "id": "rate.USA.chg_1m",
+    "unit": "pp",
+    "value": 0.08,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the long-term interest rate, USA",
+    "label_ja": "長期金利の前月差（USA）",
+    "source": "derived",
+    "derivation": "average 2026-08 − average 2026-07",
+    "inputs": [
+     "rate.USA.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "rate.JPN.label": {
+    "id": "rate.JPN.label",
+    "unit": "text",
+    "value": null,
+    "text_en": "the Japanese long-term government bond yield (monthly average)",
+    "text_ja": "日本の長期金利（月平均）",
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Rate name (JPN)",
+    "label_ja": "金利の名称（JPN）",
+    "source": "oecd_finmark",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "rate.JPN.level": {
+    "id": "rate.JPN.level",
+    "unit": "pct_pa",
+    "value": 2.94,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Long-term interest rate, JPN (monthly average)",
+    "label_ja": "長期金利（JPN・月平均）",
+    "source": "oecd_finmark",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "rate.JPN.chg_1m": {
+    "id": "rate.JPN.chg_1m",
+    "unit": "pp",
+    "value": 0.15,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-08-31",
+    "label_en": "Monthly change in the long-term interest rate, JPN",
+    "label_ja": "長期金利の前月差（JPN）",
+    "source": "derived",
+    "derivation": "average 2026-08 − average 2026-07",
+    "inputs": [
+     "rate.JPN.level"
+    ],
+    "down_word_ja": "低下",
+    "discloses_as_of": null
+   },
+   "holdings.as_of": {
+    "id": "holdings.as_of",
+    "unit": "text",
+    "value": null,
+    "text_en": "September 17, 2026",
+    "text_ja": "2026年9月17日",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Holdings disclosure date",
+    "label_ja": "組入銘柄の基準日",
+    "source": "ssga_holdings",
+    "derivation": null,
+    "inputs": [],
+    "down_word_ja": "下落",
+    "discloses_as_of": "2026-09-17"
+   },
+   "lookthrough.1.name": {
+    "id": "lookthrough.1.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "NVIDIA CORP",
+    "text_ja": "NVIDIA CORP",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through holding #1",
+    "label_ja": "ルックスルー組入 第1位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF, largest holdings only",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.1.weight": {
+    "id": "lookthrough.1.weight",
+    "unit": "weight",
+    "value": 3.2263744000000005,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through weight of holding #1",
+    "label_ja": "ルックスルー比率 第1位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.2.name": {
+    "id": "lookthrough.2.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "APPLE INC",
+    "text_ja": "APPLE INC",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through holding #2",
+    "label_ja": "ルックスルー組入 第2位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF, largest holdings only",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.2.weight": {
+    "id": "lookthrough.2.weight",
+    "unit": "weight",
+    "value": 3.0059804000000003,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through weight of holding #2",
+    "label_ja": "ルックスルー比率 第2位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.3.name": {
+    "id": "lookthrough.3.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "MICROSOFT CORP",
+    "text_ja": "MICROSOFT CORP",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through holding #3",
+    "label_ja": "ルックスルー組入 第3位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF, largest holdings only",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.3.weight": {
+    "id": "lookthrough.3.weight",
+    "unit": "weight",
+    "value": 2.245514,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through weight of holding #3",
+    "label_ja": "ルックスルー比率 第3位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.4.name": {
+    "id": "lookthrough.4.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "AMAZON.COM INC",
+    "text_ja": "AMAZON.COM INC",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through holding #4",
+    "label_ja": "ルックスルー組入 第4位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF, largest holdings only",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.4.weight": {
+    "id": "lookthrough.4.weight",
+    "unit": "weight",
+    "value": 1.4933908000000002,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through weight of holding #4",
+    "label_ja": "ルックスルー比率 第4位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF",
+    "inputs": [
+     "etf.SPY.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.5.name": {
+    "id": "lookthrough.5.name",
+    "unit": "text",
+    "value": null,
+    "text_en": "TAIWAN SEMICONDUCTOR MANUFAC",
+    "text_ja": "TAIWAN SEMICONDUCTOR MANUFAC",
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through holding #5",
+    "label_ja": "ルックスルー組入 第5位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF, largest holdings only",
+    "inputs": [
+     "etf.SPEM.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   },
+   "lookthrough.5.weight": {
+    "id": "lookthrough.5.weight",
+    "unit": "weight",
+    "value": 1.4515697,
+    "text_en": null,
+    "text_ja": null,
+    "decimals": 2,
+    "as_of": "2026-09-17",
+    "label_en": "Look-through weight of holding #5",
+    "label_ja": "ルックスルー比率 第5位",
+    "source": "ssga_holdings",
+    "derivation": "Σ fund weight × weight within ETF",
+    "inputs": [
+     "etf.SPEM.weight"
+    ],
+    "down_word_ja": "下落",
+    "discloses_as_of": null
+   }
+  },
+  "checks": [
+   {
+    "name": "Target weights add up to 100%",
+    "status": "pass",
+    "detail": "Sum of target weights = 100.0%"
+   },
+   {
+    "name": "SPY: published return vs NAV change",
+    "status": "pass",
+    "detail": "Published +2.71% vs NAV change +2.7130% (gap -0.0030 pt; tolerance 0.01 pt when no distribution is expected)."
+   },
+   {
+    "name": "SPDW: published return vs NAV change",
+    "status": "pass",
+    "detail": "Published +3.14% vs NAV change +3.1383% (gap +0.0017 pt; tolerance 0.01 pt when no distribution is expected)."
+   },
+   {
+    "name": "SPEM: published return vs NAV change",
+    "status": "pass",
+    "detail": "Published +3.39% vs NAV change +3.3892% (gap +0.0008 pt; tolerance 0.01 pt when no distribution is expected)."
+   },
+   {
+    "name": "SPAB: published return vs NAV change",
+    "status": "pass",
+    "detail": "Published +0.39% vs NAV change +0.0311%; the +0.3589 pt gap reflects the monthly distribution."
+   },
+   {
+    "name": "Contributions add up to the fund return",
+    "status": "pass",
+    "detail": "Σ contributions = 2.168000 pt; fund return = 2.168000%"
+   },
+   {
+    "name": "OECD leading indicator for G7 covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "OECD leading indicator for A5M covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "OECD leading indicator for USA covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "OECD leading indicator for JPN covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "OECD leading indicator for CHN covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "Long-term interest rate for USA covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "Long-term interest rate for JPN covers the report month",
+    "status": "pass",
+    "detail": "Latest observation: 2026-08"
+   },
+   {
+    "name": "Holdings date matches the report month end",
+    "status": "warn",
+    "detail": "Holdings are as of 2026-09-17; the commentary must state this date when citing holdings."
+   }
+  ],
+  "sources": [
+   {
+    "key": "ssga_product",
+    "publisher": "State Street Global Advisors",
+    "title": "SPDR ETF product data (public download)",
+    "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/spdr-product-data-us-en.xlsx",
+    "retrieved_at": "2026-09-20T15:44:40+00:00",
+    "terms": "Public fund disclosure; use subject to the issuer's website terms. Returns assume reinvestment of distributions."
+   },
+   {
+    "key": "ssga_navhist",
+    "publisher": "State Street Global Advisors",
+    "title": "SPDR ETF daily NAV history (public download)",
+    "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/navhist-us-en-{ticker}.xlsx",
+    "retrieved_at": "2026-09-20T15:44:59+00:00",
+    "terms": "Public fund disclosure; used only for cross-checking month-end values."
+   },
+   {
+    "key": "ssga_holdings",
+    "publisher": "State Street Global Advisors",
+    "title": "SPDR ETF daily holdings (public download); top holdings only",
+    "url": "https://www.ssga.com/us/en/intermediary/library-content/products/fund-data/etfs/us/holdings-daily-us-en-{ticker}.xlsx",
+    "retrieved_at": "2026-09-20T15:44:58+00:00",
+    "terms": "Public fund disclosure; only the largest holdings are stored."
+   },
+   {
+    "key": "oecd_cli",
+    "publisher": "OECD",
+    "title": "Composite Leading Indicators (amplitude adjusted)",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.STES,DSD_STES@DF_CLI,/G7+A5M+USA+JPN+CHN.M.LI...AA...H?startPeriod=2023-08&dimensionAtObservation=AllDimensions",
+    "retrieved_at": "2026-09-23T09:12:07+00:00",
+    "terms": "CC BY 4.0",
+    "citation": "OECD (2026), Composite leading indicators, OECD Data Explorer (accessed on 23 September 2026)."
+   },
+   {
+    "key": "oecd_finmark",
+    "publisher": "OECD",
+    "title": "Financial market indicators: long-term interest rates (monthly averages)",
+    "url": "https://sdmx.oecd.org/public/rest/data/OECD.SDD.STES,DSD_STES@DF_FINMARK,/USA+JPN.M.IRLT.PA.....?startPeriod=2026-05&dimensionAtObservation=AllDimensions",
+    "retrieved_at": "2026-09-20T15:45:01+00:00",
+    "terms": "CC BY 4.0",
+    "citation": "OECD (2026), Financial market indicators, OECD Data Explorer (accessed on 20 September 2026)."
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "agent": "fact_builder",
+   "t_ms": 441
+  },
+  {
+   "agent": "writer",
+   "t_ms": 49913
+  },
+  {
+   "agent": "checker",
+   "t_ms": 49921
+  },
+  {
+   "agent": "reviewer",
+   "t_ms": 61227
+  },
+  {
+   "agent": "gate",
+   "t_ms": 61228
+  },
+  {
+   "agent": "finalizer",
+   "t_ms": 61229
+  }
+ ],
+ "usage": [
+  {
+   "agent": "writer",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 8620,
+   "cached_tokens": null,
+   "output_tokens": 2078,
+   "thinking_tokens": 6717,
+   "tool_prompt_tokens": null,
+   "total_tokens": 17415,
+   "traffic_type": "ON_DEMAND",
+   "raw": {
+    "candidates_token_count": 2078,
+    "candidates_tokens_details": [
+     {
+      "modality": "TEXT",
+      "token_count": 2078
+     }
+    ],
+    "prompt_token_count": 8620,
+    "prompt_tokens_details": [
+     {
+      "modality": "TEXT",
+      "token_count": 8620
+     }
+    ],
+    "thoughts_token_count": 6717,
+    "total_token_count": 17415,
+    "traffic_type": "ON_DEMAND"
+   },
+   "t_ms": 49913
+  },
+  {
+   "agent": "reviewer",
+   "model": "gemini-3.8-flash",
+   "prompt_tokens": 11676,
+   "cached_tokens": null,
+   "output_tokens": 5,
+   "thinking_tokens": 2023,
+   "tool_prompt_tokens": null,
+   "total_tokens": 13704,
+   "traffic_type": "ON_DEMAND",
+   "raw": {
+    "candidates_token_count": 5,
+    "candidates_tokens_details": [
+     {
+      "modality": "TEXT",
+      "token_count": 5
+     }
+    ],
+    "prompt_token_count": 11676,
+    "prompt_tokens_details": [
+     {
+      "modality": "TEXT",
+      "token_count": 11676
+     }
+    ],
+    "thoughts_token_count": 2023,
+    "total_token_count": 13704,
+    "traffic_type": "ON_DEMAND"
+   },
+   "t_ms": 61227
+  }
+ ],
+ "elapsed_ms": 61232
+}

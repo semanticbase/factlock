@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>FactLock — enter the passphrase</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='8' rx='1.5' fill='%23003B6F'/%3E%3Cpath d='M5 7V5a3 3 0 0 1 6 0v2' fill='none' stroke='%2300A1E0' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Sans+JP:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css?v=__ASSET_VERSION__">
+</head>
+<body class="gate-body">
+  <header class="band gate-band">
+    <span class="band-name">FactLock</span>
+    <span class="band-tag">SemanticBase Co., Ltd.</span>
+  </header>
+  <main class="gate-sheet">
+    <section class="gate-main">
+      <h1>Monthly fund commentary where every number is locked to its source.</h1>
+      <p class="gate-ja" lang="ja">日本語・英語に対応した投信マンスリーコメント作成ツール<br>数値は全て、出所に明記した公開データから取得しています</p>
+      <form class="gate-form" id="gate-form" autocomplete="off">
+        <label for="passphrase">Passphrase</label>
+        <div class="gate-inputs">
+          <input type="password" id="passphrase" name="passphrase" required autofocus
+                 autocapitalize="off" autocorrect="off" spellcheck="false">
+          <button type="submit" id="enter">Enter</button>
+        </div>
+        <p class="gate-error" id="error" role="alert"></p>
+        <p class="gate-hint" id="signed-out" hidden>You have signed out on this browser.</p>
+        <p class="gate-hint">This demonstration is kept behind a passphrase. It is provided to you together with the demo link.</p>
+      </form>
+      <table class="gate-list">
+        <tr><td>Gemini drafts in English and Japanese from a fact sheet built on public data.</td></tr>
+        <tr><td>Rules, not prompts, decide what ships: a draft with an untraced number is sent back before you see it.</td></tr>
+        <tr><td>Select any number in the finished draft to read its source, its date and the calculation in the margin.</td></tr>
+      </table>
+    </section>
+    <aside class="gate-aside" aria-label="Specimen">
+      <p class="gate-aside-head">A specimen from a verified draft</p>
+      <p class="gate-specimen">U.S. large-cap equities were the largest contributor, adding
+        <span class="lock selected"><span class="num">1.08&nbsp;pp</span><sup class="nref">8</sup></span> on a total return of
+        <span class="lock"><span class="num">2.71%</span><sup class="nref">9</sup></span>.</p>
+      <div class="gate-note">
+        <div class="gate-note-head"><span class="n">8</span><span class="v">1.08&nbsp;pp</span><span>Contribution of SPY</span></div>
+        <p>Target weight 40.0% times the 1-month total return 2.71%, as of August&nbsp;31, 2026. Source: SPDR ETF product data, State Street Global Advisors.</p>
+      </div>
+      <div class="gate-seal">
+        <div class="seal" aria-label="Verified">
+          <span class="seal-ja">検証済</span><span class="seal-en">VERIFIED</span>
+          <span class="seal-n first">2026-09-23</span>
+        </div>
+      </div>
+    </aside>
+  </main>
+  <p class="gate-foot">The demo uses only public data, OECD statistics and ETF issuers' public disclosures, and holds no
+    personal or client information. The fund shown is hypothetical, and nothing here predicts or guarantees future results.</p>
+  <script>
+    const form = document.getElementById("gate-form");
+    const field = document.getElementById("passphrase");
+    const button = document.getElementById("enter");
+    const error = document.getElementById("error");
+    if (new URLSearchParams(window.location.search).has("signed_out")) {
+      document.getElementById("signed-out").hidden = false;
+    }
+    form.addEventListener("submit", async (event) => {
+      event.preventDefault();
+      error.textContent = "";
+      button.disabled = true;
+      try {
+        const response = await fetch("/api/login", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ passphrase: field.value }),
+        });
+        if (response.ok) {
+          window.location.replace("/");
+          return;
+        }
+        const body = await response.json().catch(() => null);
+        error.textContent = (body && body.detail) || "Sign-in failed. Please try again.";
+        field.select();
+      } catch (_) {
+        error.textContent = "The server could not be reached. Please try again.";
+      } finally {
+        button.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

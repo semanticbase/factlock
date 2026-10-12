@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>FactLock — verified fund commentary</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='2' y='7' width='12' height='8' rx='1.5' fill='%23003B6F'/%3E%3Cpath d='M5 7V5a3 3 0 0 1 6 0v2' fill='none' stroke='%2300A1E0' stroke-width='2'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&amp;family=IBM+Plex+Sans+JP:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/static/styles.css?v=__ASSET_VERSION__">
+</head>
+<body>
+  <header class="band">
+    <div class="band-brand">
+      <span class="band-name">FactLock</span>
+      <span class="band-tag">Every number locked to its source</span>
+    </div>
+    <div class="band-controls">
+      <label class="band-field">Report
+        <select id="report-select" aria-label="Report month"></select>
+      </label>
+      <div class="seg" role="group" aria-label="Language">
+        <button type="button" data-lang="both" aria-pressed="true">EN + 日本語</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        <button type="button" data-lang="ja" aria-pressed="false">日本語</button>
+      </div>
+      <label class="band-field" id="scenario-field" hidden>Demo run
+        <select id="scenario-select" aria-label="Demo scenario">
+          <option value="fix_once">Show a correction</option>
+          <option value="clean">Clean run</option>
+        </select>
+      </label>
+      <button type="button" class="btn-live" id="generate">Draft it live with Gemini</button>
+      <button type="button" class="band-signout" id="signout" hidden>Sign out</button>
+    </div>
+  </header>
+
+  <div class="ops">
+    <p class="ops-text" id="ops-text" aria-live="polite"></p>
+    <div class="ops-actions">
+      <button type="button" class="btn primary" id="approve" disabled>Approve draft</button>
+      <form class="approve-form" id="approve-form" hidden>
+        <input type="text" id="approve-name" aria-label="Reviewer name" placeholder="Reviewer name" autocomplete="name" required>
+        <button type="submit" class="btn primary">Record approval</button>
+        <button type="button" class="btn" id="approve-cancel">Cancel</button>
+      </form>
+      <button type="button" class="btn" id="copy-md" disabled>Copy as Markdown</button>
+      <button type="button" class="btn" id="print">Print or save as PDF, A4</button>
+    </div>
+  </div>
+
+  <main class="desk">
+    <div class="pages" id="pages" aria-live="polite"></div>
+  </main>
+
+  <script src="/static/format.js?v=__ASSET_VERSION__"></script>
+  <script src="/static/app.js?v=__ASSET_VERSION__"></script>
+</body>
+</html>

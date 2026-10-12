@@ -1,0 +1,9 @@
+.git
+.cache
+**/__pycache__
+tests
+scripts
+*_result.json
+web/DESIGN.md
+measure
+measure_out
